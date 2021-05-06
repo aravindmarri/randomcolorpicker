@@ -1,0 +1,59 @@
+body { background-color: red; }
+.page{
+  padding-top: 500px;
+}
+
+mat-card{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 500px;
+  margin: auto;
+  align-items: center;
+  border-radius: 10px;
+}
+mat-card:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.square{
+  height: 56px;
+  width: 200px;
+  background-color: rgb(205, 255, 164);
+  border-radius: 10px;
+}
+.material-icons{
+  padding: 15px;
+  cursor: pointer;
+}
+.code{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.code>div{
+  /*font-family: "Gloria Hallelujah";*/
+}
+.arrow-img{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  max-height: 200px;
+}
+
+.text-arrow{
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+@media only screen and (max-width: 560px){
+  .page{
+    padding-top: 200px ;
+  }
+  mat-card{
+    margin: 10px;
+    width: auto;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+
+  }
+}

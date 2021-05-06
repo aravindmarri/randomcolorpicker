@@ -25,3 +25,21 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Description
+
+My project is about picking a random number and displaying its RGB code and Hex code of that randomly picked value and display that code color as well.
+Below you can find some sample images of this project.
+In my project, I follow the material design and material fundamentals.
+
+Here I imported the npm package for the color pick manually in a popup. This code will help with the installation of the color picker package : npm install ngx-color-picker --save
+
+##Sample Images of The project
+Initial page of project:
+
+![img.png](src/assets/images/initial.png)
+
+
+Randomly Changed:
+
+![img.png](src/assets/images/changedcolor.png)
