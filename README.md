@@ -2,7 +2,7 @@
 
 ##GitHub Pages
 
-I hosted this project using githubpages. [Randomcolorpiker](https://aravindmarri.github.io/randomcolorpicker/)
+I hosted [Randomcolorpicker](https://aravindmarri.github.io/randomcolorpicker/) project using githubpages.
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.12.
