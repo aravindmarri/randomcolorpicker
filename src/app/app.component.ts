@@ -34,6 +34,6 @@ export class AppComponent {
   }
 
   alertMessage(): void {
-    alert('We are working on it, Soon we will implement this feature...!');
+    alert('Soon I will implement this feature...!');
   }
 }
